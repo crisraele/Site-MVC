@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.center {
+    display: flex;
+    flex-wrap: wrap; /*manipular as dimensões no flex*/
+    max-width: 100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+section.home {
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.page {
+    position: absolute; /*importante para colocar a imagem por cima da menina viajante*/
+    bottom: -450px;
+    right: -500px;
+    width: 800px;
+    height: 720px;
+    border-radius: 50%; /*para o elemento ficar um círculo*/
+    background-color: #3333c3;
+}
+
+.social-media {
+    position: absolute;
+    right: -110px;
+    top: 35px;
+}
+
+.page img {
+    position: absolute;
+    left: -130px;
+    bottom:130px;
+    height: 550px;
+    width: auto;
+}
+
+.social-media img {
+    display: block; /*para os ícones ficarem um abaixo do outro*/
+    margin: 10px 0;
+    height: 40px;
+    width: auto;
+}
+
+span {
+    color: #3333c3;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.texto-sobre {
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+    .texto-sobre h1 {
+        font-size: 50px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+
+    .texto-sobre p {
+        color: black;
+        margin: 20px 0;
+        font-size: 20px;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+
+    .texto-sobre button {
+        border: 0;
+        background-color: #3333c3;
+        color: ghostwhite;
+        border-radius: 10px;
+        width: 130px;
+        height: 30px;
+        font-size: 18px;
+        margin-left: 220px;
+        cursor: pointer;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+.texto-footer {
+    margin-top: 260px;
+}
+
+

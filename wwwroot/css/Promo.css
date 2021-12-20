@@ -1,0 +1,119 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    ;
+}
+.info-page {
+    margin: auto;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.informacoes {
+    display: table;
+}
+
+.imagem {
+    display: table-cell;
+    float: left;
+}
+
+.texto {
+    display: table-cell;
+    float: left;
+    width: 250px;
+    margin-top: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+span {
+    color: #3333c3;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    transition: all 0.3s ease-out;
+    margin-bottom: 30px;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+
+    .card h1 {
+        font-size: 25px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    .card h2 {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 35px;
+    }
+
+    .card h3 {
+        color: black;
+        font-size: 25px;
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 20px;
+    }
+
+    .card h4 {
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 15px;
+        color: brown;
+    }
+
+.image {
+    right: 10px;
+    max-width: 360px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+
+.row-1 button {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: #3333c3;
+    color: ghostwhite;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border-radius: 10px;
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+    border: 0;
+}
+
+.blue {
+    border-left: 5px solid #4895ff;
+}
+
+.green {
+    border-left: 5px solid #3bb54a;
+}
+
+.red {
+    border-left: 5px solid #b3404a;
+}
