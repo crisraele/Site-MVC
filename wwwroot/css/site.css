@@ -7,7 +7,6 @@
 
 html, body {
     height: 100%;
-    overflow-y: hidden;
     overflow-x: hidden;
 }
 .center {
@@ -25,8 +24,8 @@ section.home {
 
 .page {
     position: absolute; /*importante para colocar a imagem por cima da menina viajante*/
-    bottom: -450px;
-    right: -500px;
+    bottom: -452px;
+    right: -487px;
     width: 800px;
     height: 720px;
     border-radius: 50%; /*para o elemento ficar um círculo*/
@@ -41,9 +40,9 @@ section.home {
 
 .page img {
     position: absolute;
-    left: -130px;
-    bottom:130px;
-    height: 550px;
+    left: -163px;
+    bottom:0px;
+    height: 624px;
     width: auto;
 }
 

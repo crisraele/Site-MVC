@@ -1,6 +1,32 @@
 ﻿@{
     ViewData["Title"] = "Contato - Bora Ali";
 }
-<link rel="stylesheet" href="~/css/Contato.css" asp-append-version="true" />
 
+<link rel="stylesheet" href="~/css/Contato.css" asp-append-version="true" />
+<link href="~/img/iconbus-rem.png" rel="icon">
+
+<h1>Fale com a gente!</h1>
+        
+        
+            <form action="" method="post">
+                <div>
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="name" />
+                </div>
+                <div>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" />
+                </div>
+                <div>
+                    <label for="mail">Telefone:</label>
+                    <input type="email" id="number" />
+                </div>
+                <div>
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg"></textarea>
+                </div>
+                <div class="button">
+                    <button type="button" class="btn btn-primary">Enviar sua mensagem</button>
+                </div>
+            </form>
 

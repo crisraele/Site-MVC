@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "w7v/j51HoEWpjoa4ORbszv0wM7fM/Yp9z2PditP9Cyw=",
+  "Hash": "jFtTx5g4F8+S9T4aPNrQWjE9RWS8WT8lCxa2slg8ZZs=",
   "Source": "AgenciadeViagens",
   "BasePath": "_content/AgenciadeViagens",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\1241_portugal.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\REMAKKER\\Desktop\\C#\\AgenciaViagens\\AgenciadeViagens\\wwwroot\\img\\background.jpg",
+      "SourceId": "AgenciadeViagens",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\REMAKKER\\Desktop\\C#\\AgenciaViagens\\AgenciadeViagens\\wwwroot\\",
+      "BasePath": "_content/AgenciadeViagens",
+      "RelativePath": "img/background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\background.jpg"
     },
     {
       "Identity": "C:\\Users\\REMAKKER\\Desktop\\C#\\AgenciaViagens\\AgenciadeViagens\\wwwroot\\img\\dubai.jpg",
